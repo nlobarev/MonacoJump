@@ -19,6 +19,7 @@ Create your personalized MonacoJump experience! Upload right-facing sprites only
 assets/
 │
 ├─ settings/
+│   ├── manifest.json
 │   ├── custom-icon.png
 │   └── custom-background.png    ← Game background image here
 │
