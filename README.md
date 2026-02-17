@@ -82,6 +82,7 @@ assets/
 {
   "settings" : {
     "name": "MonacoJump",
+    "url":  "https://nlobarev.github.io/MonacoJump"
     "icon" : "assets/settings/custom-icon.png",
     "background" : "assets/settings/custom-background.png",
   }
