@@ -13,7 +13,7 @@
 </head>
 <body>
   <!--------------------------------------- Launch Screen --------------------------------------->
-  <div id="screen launchScreen">
+  <div id="launchScreen" class="overlay">
     <div>
       <img src="/assets/settings/logo.png" alt="MonacoJump Logo">
       <h4>High score: <span>10 000</span></h4>
@@ -23,7 +23,7 @@
     <button id="startButton">Click to start</button>
   </div>
   <!--------------------------------------- Game Screen --------------------------------------->
-  <div id="screen gameScreen">
+  <div id="gameScreen">
     <div>
       <button id="pauseButton">Pause</button>
       <div>
@@ -42,13 +42,13 @@
   </div>
 
   <!--------------------------------------- Pause Screen --------------------------------------->
-  <div id="screen pauseScreen">
+  <div id="pauseScreen" class="overlay">
     <h1>Game Paused</h1>
     <button id="resumeButton">Resume Game</button>
   </div>
 
   <!--------------------------------------- Game Over Screen --------------------------------------->
-  <div id="screen gameOverScreen">
+  <div id="gameOverScreen" class="overlay">
     <img src="/assets/settings/logo.png" alt="MonacoJump Logo">
     <h4>GAME OVER</h4> 
     <button id="restartButton">Restart Game</button>
