@@ -34,7 +34,8 @@ body {
 #launchScreen { display: flex; }
 
 .logo {
-    height: 80px;
+    min-height: 80px;
+    max-width: 90%;
     margin-bottom: 20px;
 }
 
