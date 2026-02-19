@@ -1,8 +1,60 @@
 <!Doctype html>
 <html>
-  <head>
-    <title>MonacoJump</title>
-  </head>
-  <body>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" type="image/png" href="/assets/settings/favicon.svg">
+  <link rel="manifest" href="/config/manifest.json">
+
+  <title>MonacoJump</title>
+  <script src="/js/MonacoJump.js" defer></script>
+</head>
+<body>
+  <!--------------------------------------- Launch Screen --------------------------------------->
+  <div id="screen launchScreen">
+    <div>
+      <img src="/assets/settings/logo.png" alt="MonacoJump Logo">
+      <h4>High score: <span>10 000</span></h4>
+    </div>
+
+    <img src="/assets/character/jump.png" alt="Character Jumping">
+    <button id="startButton">Click to start</button>
+  </div>
+  <!--------------------------------------- Game Screen --------------------------------------->
+  <div id="screen gameScreen">
+    <div>
+      <button id="pauseButton">Pause</button>
+      <div>
+        <h4>Score: <span>0</span></h4>
+        <h4>High score: <span>10 000</span></h4>
+      </div>
+    </div>
+
+    <div id="touchControls">
+      <div>
+        <button id="leftButton">Left</button>
+        <button id="rightButton">Right</button>
+      </div>
+      <button id="jumpButton">Jump</button>
+    </div>
+  </div>
+
+  <!--------------------------------------- Pause Screen --------------------------------------->
+  <div id="screen pauseScreen">
+    <h1>Game Paused</h1>
+    <button id="resumeButton">Resume Game</button>
+  </div>
+
+  <!--------------------------------------- Game Over Screen --------------------------------------->
+  <div id="screen gameOverScreen">
+    <img src="/assets/settings/logo.png" alt="MonacoJump Logo">
+    <h4>GAME OVER</h4> 
+    <button id="restartButton">Restart Game</button>
+  </div>
+
+  <!----------------------------------------- Game Canvas --------------------------------------->
+  <canvas id="gameCanvas" width="100vw" height="100vh"></canvas>
+</body>
 </html>

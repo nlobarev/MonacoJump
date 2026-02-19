@@ -1,1 +1,44 @@
+{
+    "enemies": [
+        {
+            "name": "Pizza delivery",
+            "points": 100,
+            "speed": 2,
+            
+            "width": 50,
+            "height": 50,
+            "yPosition": 0,
+            "sprites": ["assets/enemies/pizza-delivery/move1.png", "assets/enemies/pizza-delivery/move2.png"]
+        },
+        {
+            "name": "Pigeon",
+            "points": 100,
+            "speed": 1,
+            
+            "width": 50,
+            "height": 50,
+            "yPosition": 200,
+            "sprites": ["assets/enemies/pigeon/move1.png", "assets/enemies/pigeon/move2.png"]
+        },
+        {
+            "name": "Arpan",
+            "points": 200,
+            "speed": 0.5,
+            
+            "width": 50,
+            "height": 50,
+            "yPosition": 100,
+            "sprites": ["assets/enemies/arpan/move1.png", "assets/enemies/arpan/move2.png"]
+        },
+        {
+            "name": "La Planeta",
+            "points": 300,
+            "speed": 1,
 
+            "width": 50,
+            "height": 50,
+            "yPosition": 150,
+            "sprites": ["assets/enemies/la-planeta/move1.png", "assets/enemies/la-planeta/move2.png"]
+        }
+    ]
+}

@@ -1,1 +1,13 @@
+{
+    "character": {
+        "name": "Smilla",
+        "speed": 5,
+        "jumpHeight": 10,
 
+        "sprites": {
+            "idle": ["assets/character/default.png"],
+            "walk": ["assets/character/move1.png", "assets/character/move2.png"],
+            "jump": ["assets/character/jump.png"]
+        }
+    }
+}

@@ -1,1 +1,16 @@
+{
+    "settings": {
+        "name": "MyApp",
+        "version": "1.0.0",
+        "description": "This is a sample application.",
+        "author": "Nikolay Lobarev",
+        "license": "MIT",
 
+        "url": "https://www.example.com",
+        "theme": "dark",
+        "language": "en-US",
+        
+        "icon": "/assets/settings/icon.png",
+        "background": "/assets/settings/background.png"
+    }
+}
