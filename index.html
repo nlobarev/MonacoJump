@@ -15,20 +15,20 @@
   <!--------------------------------------- Launch Screen --------------------------------------->
   <div id="launchScreen" class="overlay">
     <div>
-      <img src="/assets/settings/logo.png" alt="MonacoJump Logo">
-      <h4>High score: <span>10 000</span></h4>
+      <img class="logo" src="/assets/settings/logo.png" alt="MonacoJump Logo">
+      <h1>High-score: <span>10 000</span></h1>
     </div>
 
-    <img src="/assets/character/jump.png" alt="Character Jumping">
-    <button id="startButton">Click to start</button>
+    <img class="character" src="/assets/character/jump.png" alt="Character Jumping">
+    <button class="bottom" id="startButton">Click to start game</button>
   </div>
   <!--------------------------------------- Game Screen --------------------------------------->
-  <div id="gameScreen">
+  <div id="gameScreen" class="overlay">
     <div>
       <button id="pauseButton">Pause</button>
       <div>
         <h4>Score: <span>0</span></h4>
-        <h4>High score: <span>10 000</span></h4>
+        <h4>High-score: <span>10 000</span></h4>
       </div>
     </div>
 
@@ -43,15 +43,16 @@
 
   <!--------------------------------------- Pause Screen --------------------------------------->
   <div id="pauseScreen" class="overlay">
+    <img class="logo" src="/assets/settings/logo.png" alt="MonacoJump Logo">
     <h1>Game Paused</h1>
-    <button id="resumeButton">Resume Game</button>
+    <button class="bottom" id="resumeButton">Click to resume game</button>
   </div>
 
   <!--------------------------------------- Game Over Screen --------------------------------------->
   <div id="gameOverScreen" class="overlay">
-    <img src="/assets/settings/logo.png" alt="MonacoJump Logo">
-    <h4>GAME OVER</h4> 
-    <button id="restartButton">Restart Game</button>
+    <img class="logo" src="/assets/settings/logo.png" alt="MonacoJump Logo">
+    <h1>GAME OVER</h1> 
+    <button class="bottom" id="restartButton">Click to restart game</button>
   </div>
 
   <!----------------------------------------- Game Canvas --------------------------------------->

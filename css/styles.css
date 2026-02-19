@@ -1,1 +1,84 @@
+@font-face {
+    font-family: "arcade";
+    src: url("/assets/settings/arcade.ttf") format("truetype")  ;
+}
 
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+    margin: 0; padding: 0;
+    font-family: "arcade", Arial, sans-serif;
+    background-image: url('/assets/settings/background.png');
+    background-size: cover;
+    background-position: center;}
+
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 10;
+
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);}
+
+#launchScreen, #gameScreen, #pauseScreen, #gameOverScreen { display: none;}
+#launchScreen { display: flex; }
+
+.logo {
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+p {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.character {
+    width: 200px;
+}
+
+button {
+    display: block;
+    padding: 15px 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+    color: #fff;
+    font-size: 24px;
+    font-family: 'arcade', Arial, sans-serif;
+    text-transform: uppercase;
+    background: none;
+
+    animation: blink 3s ease-in infinite;
+}
+
+@keyframes blink {
+    0%{ opacity: 0.3; }
+    50% { opacity: 1; }
+    100%{ opacity: 0.3; }
+}
+
+.bottom {
+    position: absolute;
+    bottom: 50px;
+}
