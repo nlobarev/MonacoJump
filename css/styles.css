@@ -1,6 +1,6 @@
 @font-face {
     font-family: "arcade";
-    src: url("/../assets/settings/arcade.ttf") format("truetype")  ;
+    src: url("../assetss/settings/arcade.ttf") format("truetype")  ;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
     
     margin: 0; padding: 0;
     font-family: "arcade", Arial, sans-serif;
-    background-image: url('/../assets/settings/background.png');
+    background-image: url('../assets/settings/background.png');
     background-size: cover;
     background-position: center;}
 
